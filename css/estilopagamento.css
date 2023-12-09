@@ -1,0 +1,81 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #dbdbdb;
+
+}
+
+.menu-pagamento {
+    text-align: center;
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+}
+
+.op {
+    margin: 2vw 2vw 0 2vw;
+    font-size: 1.6vw;
+}
+
+#pagcart {
+    display: none;
+}
+
+#pagpix {
+    display: none;
+}
+
+#pagboleto {
+    display: none;
+}
+
+.metodopag {
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 3vw 20vw 5vw 20vw;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.metodopag img{
+    width: 20vw;
+}
+
+.metodopag a {
+    padding: 1vw;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 2vw;
+    font-size: 1.6vw;
+}
+
+.metodopag a:hover {
+    background-color: rgb(107, 226, 83);
+}
+
+.metodopag .info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.metodopag input {
+    width: 20vw;
+    margin: 1vw;
+}
+
+.metodopag h2 {
+    margin-top: 1.5vw;
+}
+
+.metodopag h3 {
+    margin-top: 1vw;
+    font-size: 1vw;
+}

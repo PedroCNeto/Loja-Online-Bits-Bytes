@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4fa834;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    height: 8%;
+}
+
+header .content-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: calc(4vw + 1em);
+    margin-top: 1vw;
+    color: rgb(255, 255, 255);
+    /*font-family: 'VT323', sans-serif;*/
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+header .logotipo{
+    width: 10%;
+}
+
+header div #logo{
+    width: 100%;
+    height: 100%;
+}
+
+header .content-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5%;
+    font-size: 1.5vw
+}
+
+header .content-header img {
+    width: 2vw;
+}
+
+header .content-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin-top: 1vw;
+}
+
+.navbar {
+    height: 5%;
+    margin-top: 2vw;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(45, 45, 45)!important;
+}
+
+
+.navbar a, .nav-link:focus, .nav-link:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 1.5em;
+
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    /*font-family: 'VT323', sans-serif;*/
+}
+
+.navbar a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar a:hover {
+    color: rgb(153, 153, 153) !important;
+}
+
+.navbar .dropdown-menu, .nav-item:focus, .dropdown-item:focus{
+    background-color: rgb(45, 45, 45);
+    text-decoration: none;
+}
+
+.navbar .btn {
+    border-color: black !important;
+    color: rgb(16, 68, 5) !important;
+    font-size: 1em;
+    background-color: white;
+}
+
+.navbar .btn:hover {
+    background-color: rgb(194, 194, 194) !important;
+
+}
+
+.navbar-toggler {
+    background-color: rgb(98, 98, 98);
+    margin-bottom: 2em;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+.collapse.show{
+    background-color: rgb(45, 45, 45) !important;
+    padding: 1em;
+    border-radius: 10px;
+    z-index: 99;
+    margin-top: -1.8em;
+}
+
+.collapsing {
+    background-color: rgb(45, 45, 45) !important;
+    padding: 1em;
+    border-radius: 10px;
+    z-index: 99;
+    margin-top: -1.8em;
+}
+
+.collapse {
+    padding: 0;
+    z-index: 99;
+}
+
+.dropdown-item:hover {
+    background-color: #414141;
+} 
+
+main {
+    background-color: #414141;
+    margin: 0 3vw 0 3vw;
+}
+
+.carousel-item .content-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.carousel-item img{
+    max-height: 15vw;
+    background-color: gray;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter:invert(100%);
+}
+
+.produtos-vendidos {
+    color: black;
+    background-color: #dbdbdb;
+}
+
+.produtos-vendidos img {
+    width: 18vw;
+    height: 10vw;
+    margin: 1vw 0 1vw 0;
+}
+
+.produtos-vendidos a {
+    text-decoration: none;
+    color: black;
+}
+
+.produtos-vendidos .titulo {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.linha-vendidos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 1vw;
+    margin: 5px;
+}
+
+.produto h3 {
+    font-size: 1.5vw;
+}
+
+.produto .botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produto .botoes a{
+    background-color: #4fa834;
+    margin: 5px;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.produto .botoes a:hover {
+    background-color: #397926;
+}
+
+.todositens {
+    text-align: center;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+.todositens a {
+    color: #1d7e00;
+    background-color: rgb(165, 165, 165);
+    padding: 0.5vw;
+    border-radius: 3px;
+}
+
+.todositens a:hover {
+    color: #186800;
+    background-color: #969696;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(75, 75, 75);
+    color: black;
+    font-size: 1vw;
+}
+
+footer .endereco {
+    text-align: center;
+    margin-top: 1vw;
+}
+
+footer .aviso {
+    text-align: center;
+    margin-top: 1vw;
+}
+
+footer .contato {
+    text-align: center;
+    margin-top: 1vw;
+}
+
+@media (max-width: 992px) {
+    body {
+      background-color: #4fa834;
+    }
+
+    header h1 {
+        font-size: 7vw;
+        margin-top: 4.5%;
+    }
+
+    header .content-options {
+        font-size: calc(2.5vw + 5px);
+        margin-top: 1.7%;
+    }
+
+    header .content-header img{
+        width: 3.5vw;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1.5em;
+        margin-top: -2px;
+    }
+
+    .produtos-vendidos {
+        color: black;
+    }
+
+    .produto .botoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .produto .botoes a{
+        font-size: 1.5vw;
+    }
+
+    .produto h3 {
+        font-size: 1.5vw;
+    }
+
+    .produto p {
+        font-size: 1.3vw;
+    }
+
+    .todositens {
+        font-size: 3vw;
+    }
+
+    footer {
+        font-size: 1.8vw;
+    }
+
+  }
+
+  @media (max-width: 620px) {
+    body {
+      background-color: #4fa834;
+    }
+
+    header h1 {
+        font-size: 8vw;
+        margin-top: 10%;
+    }
+
+    header .content-options {
+        font-size: calc(2.5vw + 10px);
+        margin-top: 3%;
+    }
+
+    header .content-header img{
+        width: 3.5vw;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1.5em;
+    }
+
+
+    .produto h3 {
+        font-size: 2vw;
+    }
+
+    .produto p {
+        font-size: 2.5vw;
+    }
+
+    .produto .botoes a{
+        font-size: 3vw;
+    }
+
+    .todositens {
+        font-size: 4vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+  }

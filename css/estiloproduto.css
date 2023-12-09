@@ -1,0 +1,110 @@
+body {
+    height: 50%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main {
+    height: 70%;
+    color: black;
+    background-color: #dbdbdb;
+}
+
+main .produtoall {
+    display: flex;
+    justify-content: center;
+    margin: 3vw 0 3vw;
+}
+
+main .produtoesq {
+    margin-right: 7vw;
+    text-align: center;
+}
+
+main .produtoesq img{
+    width: 20vw;
+}
+
+
+main .produtodir {
+    margin-top: 1vw;
+    margin-right: 1vw;
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 165, 165);
+}
+
+main .produtodir a {
+    background-color: #4fa834;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+main .produtodir .botoes {
+    margin-top: 1em;
+}
+
+main .produtodir a:hover {
+    background-color: #397926;
+}
+
+main .produtodir .outros {
+    margin-top: 2em;
+}
+
+@media (max-width: 992px) {
+
+    main .produtoesq h1{
+        font-size: 4vw;
+    }
+    
+    main .produtoesq img {
+        width: 30vw;
+    }
+
+}
+
+@media (max-width: 620px) {
+    
+    main {
+        height: calc(100% - 30vw);
+    }
+
+    main .produtoesq {
+        align-items: center;
+    }
+
+    main .produtoesq img {
+        width: 30vw;
+    }
+
+    main .produtoesq h1{
+        font-size: 6vw;
+    }
+
+    main .produtodir {
+        font-size: 3vw;
+    }
+
+    main .produtodir h1 {
+        font-size: 7vw;
+    }
+
+    main .produtodir h2 {
+        font-size: 4vw;
+    }
+
+    main .produtodir .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .botoes a {
+        padding: 2vw;
+        margin: 1vw;
+    }
+
+}

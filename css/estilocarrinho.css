@@ -1,0 +1,139 @@
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main {
+    height: 75%;
+    background-color: #dbdbdb;
+
+}
+
+main .carrinho {
+    margin: 6vw;
+    margin-top: 3vw;
+    border:solid 0.5px;
+    border-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    color: black;
+    background-color: #dbdbdb;
+}
+
+main .carrinho .titulo {
+    background-color: #dbdbdb;
+    margin: 1vw 0 0 3vw;
+}
+
+main .carrinho .quantidade {
+    margin: 0 0 0 5vw;
+}
+
+main .carrinho .quantidade h3 {
+    color: #1d7e00;
+}
+
+main .carrinho .quantidade h3 {
+    margin-left: 3vw;
+}
+
+main .carrinho .produtos {
+    margin: 2vw 10vw 2vw 10vw;
+    display: flex;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 2px;
+    justify-content: space-between;
+}
+
+main .carrinho .produtos img {
+    width: 10vw;
+    height: 6vw;
+    border: solid 1px;
+    border-radius: 2px;
+    margin: 1vw;
+}
+
+main .carrinho .produtos .produtoesq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .carrinho .produtos .produtodir {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .carrinho .produtos .produtodir #preco{
+    color: red;
+}
+
+main .carrinho .produtos .opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+}
+
+
+main .finalizar {
+    text-align: center;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+    background-color: rgb(165, 165, 165);
+    border-radius: 3px;
+}
+
+main .finalizar a {
+    text-decoration: none;
+    color: #1d7e00;
+}
+
+main .finalizar a:hover {
+    color: #186800;
+}
+
+.vermelho {
+    color: red;
+}
+
+.verde {
+    color: #006400;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .carrinho {
+        font-size: 1.7vw;
+    }
+
+    .carrinho h3 {
+        font-size: 2vw;
+    }
+
+    .carrinho h4 {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .carrinho h3 {
+        font-size: 3vw;
+    }
+    .carrinho h4 {
+        font-size: 3vw;
+    }
+    main .carrinho .produtos {
+        flex-direction: column;
+    }
+
+    main .carrinho .produtos a {
+        font-size: 3vw;
+    }
+}
